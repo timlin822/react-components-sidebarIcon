@@ -1,0 +1,37 @@
+.bg-home-image{
+    background-image: url("images/bg-dark.jpg");
+    position: relative;
+}
+.bg-about-image{
+    background-image: url("images/bg-dark1.jpg");
+    position: relative;
+}
+.bg-service-image{
+    background-image: url("images/bg-dark2.jpg");
+    position: relative;
+}
+.bg-product-image{
+    background-image: url("images/bg-dark3.jpg");
+    position: relative;
+}
+.bg-contact-image{
+    background-image: url("images/bg-dark4.jpg");
+    position: relative;
+}
+.bg-login-image{
+    background-image: url("images/bg-dark5.jpg");
+    position: relative;
+}
+
+.home-content{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+}
+.home-content h1{
+	font-size: 120px;
+    font-weight: 700;
+    color: #151515;
+    -webkit-text-stroke: 1px #fff;
+}

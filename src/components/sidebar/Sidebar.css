@@ -1,0 +1,67 @@
+/* 導覽列 */
+.sidebar{
+    width: 75px;
+    height: 100vh;
+    background-color: #d80011;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 0.5s ease;
+}
+.sidebar-open{
+    width: 150px;
+}
+.logo{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-image{
+    width: 80px;
+}
+.btn-toggle{
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+}
+.main-sidebar{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.main-sidebar .btn-link{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 5px 0px;
+    transition: color 0.5s ease,background-color 0.5s ease;
+}
+.main-sidebar .link-icon{
+    font-size: 22px;
+}
+.sidebar-open .main-sidebar .link-icon{
+    font-size: 20px;
+}
+.main-sidebar .btn-link:hover{
+    color: #d80011;
+    background-color: #fff;
+}
+.main-sidebar .link-name-hide{
+    display: none;
+}
+.main-sidebar .link-name-show{
+    display: inline-block;
+    margin-left: 10px;
+}
